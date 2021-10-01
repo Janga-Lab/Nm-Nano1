@@ -41,3 +41,5 @@ Where the  Nm-Nano framework needs the following two inputs files when running i
 - The user should enter the BED file name with the absolute path and extension 
 
 - The user should include the fast5 files folder (fast5_files) from which reads.fastq file was generated in the same path of main.py
+
+- The default model used in Nm-Nano framework is the Xgboost model, but the user can test the Random Forest (RF) with embedding model by simply editing the last line  in main.py file to refer to RF with embedding implemented in test_split_RF.py instead of xgboost implemented in xgboost_test_split.py
