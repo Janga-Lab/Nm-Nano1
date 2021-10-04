@@ -42,7 +42,7 @@ def cigar_parse(cigar,start):
     return aligns, gstop
 
 
-filename = input("Input the bed filename with its extension:") 
+filename = input("Input the bed file name with its extension:") 
 if filename: 
     locs=open(filename,'r')
 else:
