@@ -25,7 +25,7 @@ keras 2.3.1 (using Tensorflow backend)
 
 # Running  Nm-Nano:
 
-In order to run  Nm-Nano, the user has do the following:
+In order to run  Nm-Nano, the user has to do the following:
 
 1- Ensure that BED file that highlights the Nm modified locations on the whole genome is in the same path where  main.py file exists:
 2- Run the following python command:
