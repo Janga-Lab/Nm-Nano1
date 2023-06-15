@@ -28,6 +28,7 @@ keras 2.3.1 (using Tensorflow backend)
 In order to run  Nm-Nano, the user has to do the following:
 
 1- Ensure that BED file that highlights the Nm modified locations on the whole genome is in the same path where  main.py file exists:
+
 2- Run the following python command:
 
 python main.py -r ref.fa -f reads.fastq
