@@ -38,7 +38,4 @@ subprocess.run(["samtools","quickcheck" ,"hek.sorted.bam"]) #$samtools quickchec
 subprocess.run(["nanopolish","eventalign" ,"--reads", "reads.fastq", "--bam", "hek.sorted.bam","--genome", "ref.fa", "--scale-events"], stdout=f3) #$nanopolish eventalign  --reads reads.fastq --bam  hela.sorted.bam  --genome ref.fa --scale-events > hela-reads-ref.eventalign.txt
 subprocess.run(["python","gen_coors_Nm.py"])
 filename = input("Input the learning model file name with its extension:") 
-if filename: 
-    subprocess.run(["python",filename])    
-else:
-    subprocess.run(["python","xgboost_test_split.py",])
+subprocess.run(["python","extract_nm.py",])
